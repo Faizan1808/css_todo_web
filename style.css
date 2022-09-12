@@ -22,6 +22,12 @@ body{
  margin-top: 30px;
  margin-left: 100px;
 }
+a:link{
+    text-decoration: none;
+}
+a:visited{
+    color: #161616;
+}
 
 #img{
     position: relative;
@@ -42,8 +48,6 @@ body{
     
 }
 
-
-
 .b{
     width: 200px;
     height: 240px;
@@ -52,6 +56,10 @@ body{
     margin-left: 300px;
     border-radius: 10%;
     background: rgb(255, 241, 241);
+}
+.b:hover{
+    -webkit-transform: scale(1.5,1.5);
+    transform: scale(1.05,1.05);
 }
 
 .text{
@@ -98,6 +106,16 @@ body{
     background: rgb(255, 241, 241);
 }
 
+.b1:hover{
+    -webkit-transform: scale(1.5,1.5);
+    transform: scale(1.05,1.05);
+}
+
+.b2:hover{
+    -webkit-transform: scale(1.5,1.5);
+    transform: scale(1.05,1.05);
+}
+
 .b2{
     border: 2px solid black;
     border-radius: 10%;
@@ -108,3 +126,4 @@ body{
     top: 350px;
     right: 790px;
 }
+
