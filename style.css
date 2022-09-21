@@ -3,7 +3,7 @@ body{
 }
 
 .head{
-    width: autopx;
+    width: auto;
     height: 100px;
     background-color: rgb(239, 240, 236);
     box-shadow: 0px 2px 10px grey;
@@ -22,12 +22,13 @@ body{
  margin-top: 30px;
  margin-left: 100px;
 }
-a:link{
+
+a:link, a:visited{
     text-decoration: none;
-}
-a:visited{
     color: #161616;
 }
+
+
 
 #img{
     position: relative;
@@ -36,7 +37,7 @@ a:visited{
 
 #list{
     position: relative;
-    left: 710px;
+    left: 780px;
     bottom: 15px;
     font-size: 25px;
 }
